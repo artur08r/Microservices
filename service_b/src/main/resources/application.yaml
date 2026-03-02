@@ -8,4 +8,5 @@ spring:
       port: ${REDIS_PORT}
 
 service-c:
-  uri: ${SERVICE_C_URL}
+  url: ${SERVICE_C_URL}
+  uri: ${SERVICE_C_URI}
